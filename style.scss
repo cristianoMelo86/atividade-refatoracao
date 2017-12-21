@@ -1,0 +1,259 @@
+/* Variaveis */
+$bg-success: #27ae60;
+$bg-primary: #0275d8;
+$bg-warning: #f0ad4e;
+$bg-info: #5bc0de;
+$bg-danger: #d9534f;
+
+
+
+/* Modify */
+
+      /* Botão */
+      .btn-tema {
+        padding: .6rem 1.7rem;
+      }
+
+      /* header */
+      .modal-tema{
+
+        .modal-content{
+          border: 0;
+          border-radius: 0;
+
+          .modal-header {
+            padding: .6rem 1rem 1.5rem;
+            display: flex;
+            flex-direction: column;
+          }
+
+          /* body */
+          .modal-body{
+              display: flex;
+              align-items: center;
+              flex-direction: column; 
+
+              p{
+                margin-bottom: 0;
+              } 
+          }
+          /* footer */
+          .modal-footer {
+              display: flex;
+              justify-content: center;
+              border-top: 0;
+          }
+        }
+      }
+
+
+/* Style */
+
+    /* Success */
+    .modal-success{
+
+      .modal-header{
+        background-color: $bg-success;
+        color: #fff;
+
+        .close{
+          color: #fff;
+          opacity: 1;
+          font-size: 1.5rem;
+          align-self: flex-end;
+        }
+
+        .modal-title{
+          font-size: 4rem;
+        }
+      }
+
+      .modal-body{
+        h2{
+          color: $bg-success;
+        }
+        p {
+          color: #7f8c8d;
+          font-size: 1.3rem;
+        }
+      }
+
+      /* footer */
+      .modal-footer{
+        .btn-tema {
+            border: 2px solid $bg-success;
+            border-radius: .15rem;
+            color: $bg-success;
+            font-size: .8rem;
+            background-color: transparent;
+        }
+      } 
+    }
+
+    /* Primary */
+    .modal-primary{
+
+      .modal-header{
+        background-color: $bg-primary;
+        color: #fff;
+
+        .close{
+          color: #fff;
+          opacity: 1;
+          font-size: 1.5rem;
+          align-self: flex-end;
+        }
+
+        .modal-title{
+          font-size: 4rem;
+        }
+      }
+
+      .modal-body{
+        h2{
+          color: $bg-primary;
+        }
+        p {
+          color: #7f8c8d;
+          font-size: 1.3rem;
+        }
+      }
+
+      /* footer */
+      .modal-footer{
+        .btn-tema {
+            border: 2px solid $bg-primary;
+            border-radius: .15rem;
+            color: $bg-primary;
+            font-size: .8rem;
+            background-color: transparent;
+        }
+      } 
+    }
+
+    /* Warning */
+    .modal-warning{
+
+      .modal-header{
+        background-color: $bg-warning;
+        color: #fff;
+
+        .close{
+          color: #fff;
+          opacity: 1;
+          font-size: 1.5rem;
+          align-self: flex-end;
+        }
+
+        .modal-title{
+          font-size: 4rem;
+        }
+      }
+
+      .modal-body{
+        h2{
+          color: $bg-warning;
+        }
+        p {
+          color: #7f8c8d;
+          font-size: 1.3rem;
+        }
+      }
+
+      /* footer */
+      .modal-footer{
+        .btn-tema {
+            border: 2px solid $bg-warning;
+            border-radius: .15rem;
+            color: $bg-warning;
+            font-size: .8rem;
+            background-color: transparent;
+        }
+      } 
+    }
+
+    /* Info */
+    .modal-info{
+
+      .modal-header{
+        background-color: $bg-info;
+        color: #fff;
+
+        .close{
+          color: #fff;
+          opacity: 1;
+          font-size: 1.5rem;
+          align-self: flex-end;
+        }
+
+        .modal-title{
+          font-size: 4rem;
+        }
+      }
+
+      .modal-body{
+        h2{
+          color: $bg-info;
+        }
+        p {
+          color: #7f8c8d;
+          font-size: 1.3rem;
+        }
+      }
+
+      /* footer */
+      .modal-footer{
+        .btn-tema {
+            border: 2px solid $bg-info;
+            border-radius: .15rem;
+            color: $bg-info;
+            font-size: .8rem;
+            background-color: transparent;
+        }
+      } 
+    }
+
+    /* Danger */
+    .modal-danger{
+
+      .modal-header{
+        background-color: $bg-danger;
+        color: #fff;
+
+        .close{
+          color: #fff;
+          opacity: 1;
+          font-size: 1.5rem;
+          align-self: flex-end;
+        }
+
+        .modal-title{
+          font-size: 4rem;
+        }
+      }
+
+      .modal-body{
+        h2{
+          color: $bg-danger;
+        }
+        p {
+          color: #7f8c8d;
+          font-size: 1.3rem;
+        }
+      }
+
+      /* footer */
+      .modal-footer{
+        .btn-tema {
+            border: 2px solid $bg-danger;
+            border-radius: .15rem;
+            color: $bg-danger;
+            font-size: .8rem;
+            background-color: transparent;
+        }
+      } 
+    }
+
+
+     
+    
