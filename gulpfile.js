@@ -19,4 +19,4 @@ gulp.task('sass:watch', function(){
 
 });
 
-gulp.task('comp', ['sass:watch']);
+gulp.task('default', ['sass:watch']);
